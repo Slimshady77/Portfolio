@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .anima {
+    width: 300px;
+    height: 100px;
+    background: peachpuff;
+    transition: width 2s;
+  }
+  
+  .anima:hover
+   {
+    width: 400px;
+  }
+  
+
+
+  .Rob {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    30%   {background-color:red; left:0px; top:0px;}
+    30%  {background-color:peachpuff; left:200px; top:0px;}
+    40%  {background-color:white; left:200px; top:0px;}
+    
+  } 
+  
+  #div3{animation-timing-function: ease-in;
+        color: white;}
+
+
+          .typed-out{
+            overflow: hidden; 
+            white-space: nowrap;
+            animation: 
+              typing 5s forwards;
+            font-size: 1.6rem;
+            width: 0;
+    animation-iteration-count: 5;
+
+          }
+          @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+          }
+          
+          
+
+  
+  /*# sourceMappingURL=style.css.map */
+  
