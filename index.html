@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicon_package_v0.16/"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon_package_v0.16/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon_package_v0.16/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="assets/images/favicon_package_v0.16/site.webmanifest"
+    />
+    <link
+      rel="mask-icon"
+      href="assets/images/favicon_package_v0.16/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Robin Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="assets/images/logo.svg" alt="robin logo" />
+        </div>
+        <div class="navbar">
+          <a href="#home">Home</a>
+          <a href="#project">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="navigation">
+          <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="container about" id="home">
+      <div class="avatar">
+        <img src="assets/images/avatar.png" alt="robin developer" />
+      </div>
+      <div class="about-text" id="typewriter-container">
+        <h1 id="typewriter-text">
+          Transforming Ideas into Reality:<br /><span id="typewriter-text-2"
+            >Robin, Full-Stack Developer</span
+          >
+        </h1>
+        <p>
+          I am a full-stack Website Developer, specializing in MERN Stack
+          development. My expertise lies in crafting robust and scalable
+          SaaS-based architectures on the Amazon AWS platform.
+        </p>
+        <div class="about-button">
+          <a class="btn-primary" href="#contact"> Get in touch </a>
+          <a
+            class="btn-secondary"
+            href="assets/images/Robin (Updated).pdf"
+            title="Download CV"
+            download
+          >
+            Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="container experience-with">
+      <h2>Experience with</h2>
+      <div class="experience-with-lang">
+        <div><img src="assets/images/javascript.png" alt="js logo" /></div>
+        <div><img src="assets/images/nodejs.png" alt="node logo" /></div>
+        <div><img src="assets/images/html.png" alt="html logo" /></div>
+        <div><img src="assets/images/css.png" alt="css logo" /></div>
+        <div><img src="assets/images/reactjs.png" alt="react logo" /></div>
+      </div>
+    </section>
+    <section class="container">
+      <h2 class="primary-heading heading-project" id="project">Projects</h2>
+      <div class="projects">
+        <div class="project-item">
+          <img src="assets/images/project-1.jpg" alt="project-1" />
+          <div class="project-title">
+            <a
+              href="https://github.com/Slimshady77/Ecommerce-website-for-Farmers"
+              style="text-decoration: none; color: #fff"
+              ><p>Click here to visit</p></a
+            >
+            <h3>Online Marketplace for Farmers</h3>
+          </div>
+        </div>
+        <div class="project-item">
+          <img src="assets/images/project-2.jpg" alt="project-2" />
+          <div class="project-title">
+            <a
+              href="https://github.com/Slimshady77/online-outpatient-management"
+              style="text-decoration: none; color: #fff"
+              ><p>Click here to visit</p></a
+            >
+            <h3>Hospital Management System</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <h2 class="primary-heading heading-experience" id="experience">
+        Experience
+      </h2>
+      <div class="experience">
+        <div class="experience-item">
+          <div class="experience-title-container">
+            <img src="assets/images/Untitled.jpg" alt="experience-img" />
+            <p>6 months internship in Full stack development</p>
+            <div class="date">June 2023-Nov 2023</div>
+          </div>
+          <div>
+            <p>
+              As a Web Developer at Apps imagica, I played a crucial role in
+              developing innovative solutions for its project development.
+              Collaborating with a dynamic team of developers, I contributed to
+              the enhancement of backend and frontend, optimizing user
+              experiences for millions of users worldwide.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container" id="contact">
+      <h2>Contact</h2>
+      <p>
+        I am Full Stack Web Developer with hands-on experience in designing and
+        implementing robust, scalable, and innovative web solutions. Adept at
+        leveraging a comprehensive skill set encompassing front-end and back-end
+        technologies
+      </p>
+      <div class="email-container">
+        <div>
+          <img src="assets/images/email.jpg" alt="email" /><span
+            >&nbsp;robincyril24@gmail.com</span
+          >
+        </div>
+      </div>
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/robin-cyril-089969a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          ><img src="assets/images/linkedin.png" alt="linkedin"
+        /></a>
+      </div>
+    </footer>
+  </body>
+  <script src="assets/js/toggle.js"></script>
+</html>
